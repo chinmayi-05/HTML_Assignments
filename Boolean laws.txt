@@ -1,0 +1,117 @@
+Boolean laws:
+A+1=1
+A.0=0
+A+0=A (identity law)
+A.1=A
+A"=A(doudle inversion)
+A+A=A(idempotent law)
+A.A=A
+A+A'=1(complemnt law)
+A.A'=0
+A+B=B+A(commutative law)
+A.B=B.A
+
+De-morgens theorem:
+(A+B)"=A'.B'
+A.B'=A'+B'
+ 
+
+Problem 01:
+ 1)  xy+xy'
+=x(y+y')   
+x(1)=x
+
+2)  (x+y)(x+y')
+     =x.x+x.y'+y.x+yy'
+     =x.y'+y.x+0
+     =x[1+y'+y]
+     =x
+
+3)   xyz+xy'+xyz'
+    =xy(z+z')+x'y
+    =xy+xy'
+    =y(x+x')
+    =y
+
+
+NUMBER SYSTEM CONVERSION:
+-Binary-base 2 ,0 1
+-Decimal-base 10, 0 to 9
+-Octal-base 8 , 0 to 7
+-Hexadecimal-base 16 , 0 to 9
+
+Decimal to any other number system
+secessive diversion byy base of other number system 
+
+(25)base 10 to binary
+ 
+    2|25
+    2|12-1
+    2|6-0       [11001]
+    2|3-0
+     |1-1
+
+
+(128)base 10 to ()8
+
+8|128
+8|16-0          [200]
+ |2-0
+
+CONVERSION FROM ANYOTHER NUMBER SYSTEM TO DECIMAL:
+To convert anyother number to decimal multiply each bit value with other number system base to power of position.
+
+Convert 89 to base 16 into binary
+214 to base 8 to binary
+
+hexadecimal to octal
+1056
+
+binary to decimal
+(1101) base 2 to decimal 
+ 
+Octal to decimal :
+ (22) base 8 
+2*8(power of 0)=2
+2*8(power of 1)=16
+16+2=18
+(18)base of 10 
+ 
+Show the truth table for the following boolean function:
+F=(A+B)(C+D)
+
+A           B             C          D      A+B          C+D         (A+B)(C+D)
+0           0             0          0       0            0               0
+0           0             0          1       0
+0           0             1          0       0
+0           0             1          1       1
+0           1             0          0       1
+0           1             0          1       1
+0           1             1          0       1 
+0           1             1          1       1
+0           0             0          0       1
+0           0             0          1       1
+1           0             1          0       1
+1           0             1          1       1
+1           1             0          0       1
+1           1             0          1       1
+1           1
+ 
+Minimize the following boolean expression using 4 variable K-map
+
+A'B'C'D'  +  AC'D  +  B'C'D'  +  A'BCD  +  BCD
+
+
+     
+
+
+
+
+ 
+
+
+
+
+
+
+
